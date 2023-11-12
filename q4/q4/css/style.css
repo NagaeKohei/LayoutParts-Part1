@@ -1,1 +1,51 @@
 @charset "UTF-8";
+.table-area {
+  width: 100%;
+  margin-top: 100px;
+  display: table;
+}
+
+.cell-area {
+  display: table-cell;
+  text-align: center;
+  padding: 30px;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.red {
+  background-color: red;
+  width: 150px;
+}
+
+.green {
+  background-color: green;
+}
+
+.brown {
+  background-color: brown;
+  color: white;
+}
+
+.white {
+  width: 300px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.gray {
+  width: 170px;
+  background-color: gray;
+}
+
+.orange {
+  background-color: orange;
+}
