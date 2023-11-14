@@ -5,22 +5,24 @@
 .q1-back {
   background-color: #fff;
   text-align: center;
+  width: 200px;
 }
 .q1-text1 {
   display: inline-block;
   background: #a4b3e9;
+  font-size: 16px;
   padding: 10px;
-  margin: 5px;
+  margin: 20px;
 }
 
 /*q1-1:margin*/
 .q1-back2 {
   background-color: #fff;
-  padding: 5px 0;
+  padding: 20px 0;
 }
 .q1-text2 {
   background: #a4b3e9;
-  width: 70px;
+  width: 90px;
   padding: 10px;
   text-align: center;
   margin: auto;
