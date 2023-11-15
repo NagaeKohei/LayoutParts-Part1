@@ -1,33 +1,40 @@
 @charset "UTF-8";
 
 table {
+  width: 100%;
   margin: 0 auto;
-  border: 5px solid rgb(97, 97, 97);
   text-align: center;
+  font-size: 18px;
+  table-layout: fixed;
 }
 
-thead {
-  background-color: aqua;
+thead,th {
+  background-color: #319c4a;
+  line-height: 26px;
 }
 
 thead tr th {
-  font-size: 1.5rem;
   padding: 10px;
-  border: 1px solid rgb(97, 97, 97);
-  font-weight: 1000;
+  border: 1px solid black;
 }
 
-tbody tr th {
-  background-color: aquamarine;
+tbody tr th,tbody tr td {
   padding: 10px;
-  border: 1px solid rgb(97, 97, 97);
-}
-
-tbody tr th :last-child {
-  background-color: blue;
+  border: 1px solid black;
 }
 
 tbody tr td {
-  padding: 10px;
-  border: 1px solid rgb(97, 97, 97);
+  line-height: 22px;
+  font-size: 16px;
+}
+
+tbody tr {
+  background-color: #d5ffc7;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #bcbcbc;
+}
+tbody tr:last-child {
+  border-top: 1px double #ffffff;
 }
